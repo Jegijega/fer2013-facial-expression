@@ -1,0 +1,15 @@
+# deep CNN, no regularization, used to show overfitting
+model: deeper_cnn
+run_name: 02_deeper_cnn_overfit
+group: from_scratch
+notes: "Deep CNN, no regularization. Intentionally overfits - large train/val gap."
+tags: [cnn, deep, overfit]
+
+batch_size: 128
+augment: false
+epochs: 40
+lr: 0.001
+optimizer: adam
+weight_decay: 0.0
+scheduler: none
+seed: 42

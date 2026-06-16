@@ -1,0 +1,20 @@
+# same depth as deeper_cnn but with BatchNorm + Dropout + augmentation
+model: regularized_cnn
+run_name: 03_regularized_cnn
+group: from_scratch
+notes: "Deep CNN + BatchNorm + Dropout + augmentation + weight decay + cosine LR."
+tags: [cnn, deep, regularized, best_scratch]
+model_kwargs:
+  dropout: 0.4
+
+batch_size: 128
+augment: true
+epochs: 60
+lr: 0.001
+optimizer: adam
+weight_decay: 0.0001
+scheduler: cosine
+label_smoothing: 0.05
+grad_clip: 5.0
+early_stop_patience: 12
+seed: 42
