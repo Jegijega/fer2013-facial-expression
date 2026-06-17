@@ -149,3 +149,6 @@ adamw), dropout, weight decay და cosine schedule უფრო ღრმა �
   matrix-ში.
 - მთლიანი გზა underfit -> overfit -> რეგულარიზებული -> transfer სწორედ ის
   bias/variance ისტორიაა, რომელიც ლექციაზე გავიარეთ, ოღონდ ახლა რეალურ მრუდებზე.
+
+##  wandb link: 
+  https://wandb.ai/gabas22-free-university-of-tbilisi-/fer2013-fer-challenge/overview
